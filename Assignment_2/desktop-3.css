@@ -1,0 +1,409 @@
+.desktop-3-child,
+.frame-b-child {
+  height: 79px;
+  position: relative;
+  background-color: var(--color-gainsboro-200);
+  display: none;
+}
+.desktop-3-child {
+  align-self: stretch;
+}
+.frame-b-child {
+  width: 1440px;
+  max-width: 100%;
+}
+.home {
+  position: relative;
+  white-space: nowrap;
+  z-index: 2;
+}
+.home-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 0;
+  font-size: var(--font-size-13xl);
+}
+.exhibition {
+  position: relative;
+  z-index: 2;
+}
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-18xl) 0 0;
+}
+.vr-artists {
+  position: relative;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frame-c {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl) 0 0;
+  font-size: var(--font-size-12xl);
+}
+.vr-artworks {
+  position: relative;
+  white-space: nowrap;
+  z-index: 2;
+}
+.frame-c1 {
+  width: 226px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: var(--font-size-12xl);
+}
+.contact {
+  align-self: stretch;
+  height: 18px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.line-separator {
+  width: 156px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-mid);
+  box-sizing: border-box;
+}
+.about {
+  position: relative;
+  font-size: var(--font-size-10xl);
+  z-index: 2;
+}
+.frame-b {
+  align-self: stretch;
+  background-color: var(--color-gainsboro-200);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xl) var(--padding-54xl) var(--padding-xl)
+    var(--padding-62xl);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.create {
+  position: relative;
+  font-weight: 200;
+}
+.virtualize-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6xs) 0 0;
+}
+.frame-e {
+  width: 105px;
+  height: 1px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.frame-e,
+.virtualize-your-exhibitions {
+  position: relative;
+}
+.create-button,
+.line-separator1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.line-separator1 {
+  flex-direction: column;
+  align-items: center;
+  gap: 16px 0;
+}
+.create-button {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.no-special-hardware {
+  position: relative;
+}
+.for-galleries-museums-collecto,
+.images-column {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.for-galleries-museums-collecto {
+  flex-direction: column;
+  align-items: center;
+  gap: 42px 0;
+}
+.images-column {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-18xl) 15px 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-10xl);
+}
+.image-4-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.for-artists {
+  position: relative;
+  font-weight: 300;
+}
+.image-display,
+.image-rectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs) 0 0;
+}
+.image-rectangle {
+  height: 290px;
+  width: 235px;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 25px 0;
+}
+.image-5-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.for-galleries {
+  position: relative;
+  font-weight: 300;
+}
+.image-frame-b {
+  height: 290px;
+  width: 215px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  gap: 25px 0;
+}
+.image-6-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.for-museums {
+  position: relative;
+  font-weight: 300;
+}
+.image-frame-b1 {
+  height: 290px;
+  width: 238px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px 0;
+}
+.image-7-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.for-collectors {
+  position: relative;
+  font-weight: 300;
+}
+.image-frame-b2 {
+  height: 290px;
+  width: 205px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px 0;
+}
+.image-frame-a {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.advantages {
+  position: relative;
+  font-weight: 500;
+}
+.sub-frame {
+  height: 1px;
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+}
+.line-separator-line {
+  align-self: stretch;
+  height: 0;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-3xl) 0 var(--padding-7xl);
+  box-sizing: border-box;
+}
+.for-artists-frame,
+.line-separator-line,
+.line-separator2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.for-artists-frame {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px 0;
+}
+.line-separator2 {
+  width: 202px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+}
+.vr-all-art-is-an {
+  width: 1284px;
+  height: 212px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.a-d-v-a-n-t-a-g-e-s-f-r-a-m-e {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px 0;
+}
+.a-d-v-a-n-t-a-g-e-s-f-r-a-m-e,
+.frames-section,
+.images-column-parent {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frames-section {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 16px 0 var(--padding-smi);
+  box-sizing: border-box;
+}
+.images-column-parent {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: 62px 0;
+  text-align: left;
+  font-size: var(--font-size-8xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+.desktop-3,
+.frames-row {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.frames-row {
+  width: 1336px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 0 var(--padding-4xl);
+  max-width: 100%;
+}
+.desktop-3 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 var(--padding-5xs);
+  gap: 42px 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 975px) {
+  .frame-b {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+  .image-frame-a {
+    flex-wrap: wrap;
+  }
+  .desktop-3 {
+    gap: 42px 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .images-column-parent {
+    gap: 62px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .create,
+  .no-special-hardware,
+  .virtualize-your-exhibitions {
+    font-size: var(--font-size-4xl);
+  }
+  .for-galleries-museums-collecto {
+    gap: 42px 0;
+  }
+  .advantages,
+  .for-artists,
+  .for-collectors,
+  .for-galleries,
+  .for-museums,
+  .vr-all-art-is-an {
+    font-size: var(--font-size-3xl);
+  }
+  .images-column-parent {
+    gap: 62px 0;
+  }
+}
